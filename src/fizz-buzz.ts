@@ -9,6 +9,8 @@ class FizzBuzz{
         if (number%5===0) return true;
         return false;
      }
+
+     
 }
 
 export default FizzBuzz
