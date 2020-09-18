@@ -10,7 +10,12 @@ class FizzBuzz{
         return false;
      }
 
-     
+     static isFizzBuzz(number:number): boolean {
+        if (this.isFizz(number) && this.isBuzz(number)) return true;
+        return false;
+     }
+
+
 }
 
 export default FizzBuzz
