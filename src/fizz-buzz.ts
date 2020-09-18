@@ -1,7 +1,7 @@
 class FizzBuzz{
 
     static isFizz(number:number): boolean {
-       if (number===3) return true;
+       if (number%3===0) return true;
        return false;
     }
 
